@@ -32,6 +32,7 @@ class TabBarRow extends StatelessWidget {
               Container(
                 child: Center(
                     child: GridView.builder(
+                        itemCount: 10,
                         gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
                             maxCrossAxisExtent: 300,
                             childAspectRatio: 2 / 2,
@@ -52,6 +53,7 @@ class TabBarRow extends StatelessWidget {
               Container(
                 child: Center(
                     child: GridView.builder(
+                        itemCount: 10,
                         gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
                             maxCrossAxisExtent: 300,
                             childAspectRatio: 2 / 2,
